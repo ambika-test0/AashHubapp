@@ -170,5 +170,45 @@ post.style.display="none";
 
 </script>
 
+<head>
+<style>
+
+body{
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+background:#0f172a;
+}
+
+.btn{
+padding:15px 35px;
+font-size:20px;
+font-weight:bold;
+color:white;
+background:linear-gradient(45deg,#2563eb,#06b6d4);
+border:none;
+border-radius:50px;
+cursor:pointer;
+transition:0.4s;
+box-shadow:0 0 20px rgba(37,99,235,.5);
+}
+
+.btn:hover{
+transform:scale(1.1);
+box-shadow:0 0 40px rgba(6,182,212,1);
+}
+
+.btn:active{
+transform:scale(0.95);
+}
+
+</style>
+</head>
+<body>
+
+<button class="btn">Click Me</button>
+
+
 </body>
 </html>
